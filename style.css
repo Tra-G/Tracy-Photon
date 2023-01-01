@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 ul{
@@ -53,7 +54,7 @@ header{
     text-align: center;
 }
 
-a:hover{
+.nav-link:hover{
     border-bottom: 3px solid #E8985E;
 }
 
@@ -88,3 +89,47 @@ span{
 .btn:hover{
     background-color: #C08552;
 }
+
+.sect1 a{
+    color: #000;
+    display: flex;
+    background-color: #E8985E;
+    padding: 10px 25px;
+    border-radius: 28px;
+    font-family: 'Andika', sans-serif;
+}
+
+.sect1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.sect1 li{
+    padding: 0 10px;
+}
+
+.sect2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.sect2 img{
+    width: 450px;
+    height: 600px;
+}
+
+
+/*.sect2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 400px;
+}
+*/
+
+
+
