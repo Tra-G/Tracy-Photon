@@ -112,6 +112,11 @@ img {
     width: 100%;
 }
 
+img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
 
 @media (max-width: 1199px) {
     .grid-items {
