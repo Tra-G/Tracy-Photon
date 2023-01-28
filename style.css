@@ -115,6 +115,7 @@ img {
 img:hover{
     filter: grayscale(1);
     transform: scale(1.03);
+    cursor: pointer;
 }
 
 
