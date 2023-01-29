@@ -39,6 +39,18 @@ a{
     padding: 0 15px;
 }
 
+.hamburger{
+    display: none;
+}
+
+.hamburger-icon{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px;
+}
+
 
 .home{
     border-bottom: 3px solid #CC5803; /* #E8985E;*/
@@ -131,12 +143,58 @@ img:hover{
       column-count: 2;
       width: 90%;
     }
+
+    .hamburger{
+        display: block;
+    }
+    
+    .hamburger-icon{
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        margin: 5px;
+    }
+
+    .nav-bar ul{
+        font-family: 'Andika', sans-serif;
+        font-family: 'Bree Serif', serif;
+        display: none;
+        font-size: 16px;
+    }
+
+    .search{
+        display: none;
+    }
   }
   
   @media (max-width: 600px) {
     .grid-items {
       column-count: 1;
       width: 90%;
+    }
+
+    .hamburger{
+        display: block;
+    }
+    
+    .hamburger-icon{
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        margin: 5px;
+    }
+
+    .nav-bar ul{
+        font-family: 'Andika', sans-serif;
+        font-family: 'Bree Serif', serif;
+        display: none;
+        font-size: 16px;
+    }
+
+    .search{
+        display: none;
     }
   }
   
